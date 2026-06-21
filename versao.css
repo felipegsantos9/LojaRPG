@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0A0A0F;
+  font-family:'Inter', sans-serif;
+  color:#F2F2F2;
+}
+
+.version-page{
+  padding:20px;
+  min-height:100vh;
+}
+
+.page-header{
+  display:flex;
+  align-items:center;
+  gap:15px;
+  margin-bottom:25px;
+}
+
+.back-btn{
+  width:42px;
+  height:42px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:12px;
+  color:#7B3FE4;
+  text-decoration:none;
+  font-size:22px;
+}
+
+.page-header h1{
+  font-size:24px;
+}
+
+.version-info,
+.credits,
+.developer-info{
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:16px;
+  padding:20px;
+  margin-bottom:20px;
+}
+
+.version-info h2,
+.credits h2,
+.developer-info h2{
+  color:#F2F2F2;
+  font-size:18px;
+  margin-bottom:10px;
+}
+
+.version-info p,
+.credits p,
+.developer-details p{
+  color:#B8B8C7;
+  font-size:14px;
+  margin-bottom:8px;
+}
+
+.developer-card{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+
+.developer-card img{
+  width:120px;
+  height:120px;
+  object-fit:cover;   /* garante que a imagem se encaixe sem distorcer */
+  border-radius:12px; /* cantos arredondados, mas não círculo */
+  border:2px solid #7B3FE4;
+}
+
+.developer-details h3{
+  color:#F2F2F2;
+  font-size:16px;
+  margin-bottom:5px;
+}
+    

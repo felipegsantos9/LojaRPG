@@ -1,0 +1,82 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0A0A0F;
+  font-family:'Inter', sans-serif;
+  color:#F2F2F2;
+}
+
+.address-page{
+  padding:20px;
+  min-height:100vh;
+}
+
+.page-header{
+  display:flex;
+  align-items:center;
+  gap:15px;
+  margin-bottom:25px;
+}
+
+.back-btn{
+  width:42px;
+  height:42px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:12px;
+  color:#7B3FE4;
+  text-decoration:none;
+  font-size:22px;
+}
+
+.page-header h1{
+  font-size:24px;
+}
+
+.address-list{
+  list-style:none;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.address-list li{
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:16px;
+  padding:15px;
+}
+
+.address-list span{
+  display:block;
+  font-size:15px;
+  color:#F2F2F2;
+  margin-bottom:5px;
+}
+
+.address-list p{
+  font-size:14px;
+  color:#B8B8C7;
+}
+
+.add-address{
+  margin-top:20px;
+  text-align:center;
+}
+
+.add-address button{
+  background:#7B3FE4;
+  border:none;
+  border-radius:12px;
+  padding:10px 20px;
+  color:#fff;
+  font-size:14px;
+  cursor:pointer;
+}

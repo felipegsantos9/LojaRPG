@@ -1,0 +1,74 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0A0A0F;
+  font-family:'Inter', sans-serif;
+  color:#F2F2F2;
+}
+
+.settings-page{
+  padding:20px;
+  min-height:100vh;
+}
+
+.page-header{
+  display:flex;
+  align-items:center;
+  gap:15px;
+  margin-bottom:25px;
+}
+
+.back-btn{
+  width:42px;
+  height:42px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:12px;
+  color:#7B3FE4;
+  text-decoration:none;
+  font-size:22px;
+}
+
+.page-header h1{
+  font-size:24px;
+}
+
+.settings-list{
+  list-style:none;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.settings-list li{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:16px;
+  padding:15px;
+}
+
+.settings-list span{
+  font-size:15px;
+}
+
+.settings-list select,
+.settings-list button,
+.settings-list input[type="checkbox"]{
+  background:#232330;
+  border:1px solid #333;
+  border-radius:8px;
+  padding:6px 10px;
+  color:#F2F2F2;
+  cursor:pointer;
+  font-size:14px;
+}

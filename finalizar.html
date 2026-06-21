@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quest & Dados - Finalizar Compra</title>
+  <link rel="stylesheet" href="finalizar.css">
+</head>
+<body>
+  <section class="checkout-page">
+
+    <div class="page-header">
+      <a href="carrinho.html" class="back-btn">←</a>
+      <h1>Finalizar Compra</h1>
+    </div>
+
+    <div class="order-summary">
+      <h2>Resumo do Pedido</h2>
+      <ul>
+        <li>Conjuto de dados RPG - Marcelo Out Context— R$ 64,90 (Qtd: 1)</li>
+        <li>Crystal Saga RPG - Livro de Regras — R$ 59,90 (Qtd: 1)</li>
+        <li>Pergaminho de Fogo — R$ 39,90 (Qtd: 2)</li>
+        <li>Combo Miniaturas Celo & Rachel — R$ 199,90 (Qtd: 1)</li>
+      </ul>
+      <p><strong>Total:</strong> R$ 284,60</p>
+    </div>
+
+    <div class="delivery-info">
+      <h2>Selecione o Endereço de Entrega</h2>
+      <form>
+        <label class="address-option">
+          <input type="radio" name="address" checked>
+          Rua Afonso Sardinha - Lapa, São Paulo/SP
+         CEP: 05076-000
+        </label>
+
+        <label class="address-option">
+          <input type="radio" name="address">
+          Avenida Beira Mar - Torres/RS
+          CEP: 95560-000
+        </label>
+      </form>
+    </div>
+
+    <div class="payment-info">
+      <h2>Selecione o Método de Pagamento</h2>
+      <form>
+        <label class="payment-option">
+          <input type="radio" name="payment" checked>
+          <img src="Imagens/visa.png" alt="Visa">
+          Cartão de crédito - Visa final 1234
+        </label>
+
+        <label class="payment-option">
+          <input type="radio" name="payment">
+          <img src="Imagens/mastercard.jpg" alt="Mastercard">
+          Cartão de crédito - Mastercard final 5678
+        </label>
+
+        <label class="payment-option">
+          <input type="radio" name="payment">
+          <img src="Imagens/elo.jpg" alt="Elo">
+          Cartão de crédito - Elo final 2469
+        </label>
+
+        <label class="payment-option">
+          <input type="radio" name="payment">
+          <img src="Imagens/inter.jpg" alt="Inter">
+          Cartão de débito - Inter final 0413
+        </label>
+
+      </form>
+    </div>
+
+    <div class="confirm-order">
+      <button class="confirm-btn">Confirmar Pedido</button>
+    </div>
+
+  </section>
+</body>
+</html>

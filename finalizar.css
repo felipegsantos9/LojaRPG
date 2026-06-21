@@ -1,0 +1,166 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0A0A0F;
+  font-family:'Inter', sans-serif;
+  color:#F2F2F2;
+}
+
+.checkout-page{
+  padding:20px;
+  min-height:100vh;
+}
+
+.page-header{
+  display:flex;
+  align-items:center;
+  gap:15px;
+  margin-bottom:25px;
+}
+
+.back-btn{
+  width:42px;
+  height:42px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:12px;
+  color:#7B3FE4;
+  text-decoration:none;
+  font-size:22px;
+}
+
+.page-header h1{
+  font-size:24px;
+}
+
+.order-summary,
+.delivery-info,
+.payment-info{
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:16px;
+  padding:20px;
+  margin-bottom:20px;
+}
+
+.order-summary h2,
+.delivery-info h2,
+.payment-info h2{
+  font-size:18px;
+  margin-bottom:10px;
+  color:#F2F2F2;
+}
+
+.order-summary ul{
+  list-style:none;
+  margin-bottom:10px;
+}
+
+.order-summary li{
+  font-size:14px;
+  color:#B8B8C7;
+  margin-bottom:5px;
+}
+
+.order-summary p{
+  font-size:16px;
+  color:#FFD700; /* amarelo para destacar o total */
+}
+
+.delivery-info p,
+.payment-info p{
+  font-size:14px;
+  color:#B8B8C7;
+}
+
+.confirm-order{
+  text-align:center;
+  margin-top:20px;
+}
+
+.confirm-btn{
+  background:#7B3FE4;
+  border:none;
+  border-radius:12px;
+  padding:12px 24px;
+  color:#fff;
+  font-size:15px;
+  cursor:pointer;
+}
+
+.payment-info form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.payment-option{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:12px;
+  padding:10px;
+  color:#F2F2F2;
+  cursor:pointer;
+}
+
+.payment-option img{
+  width:40px;
+  height:auto;
+}
+
+.payment-option input{
+  accent-color:#7B3FE4; /* cor do radio button */
+}
+
+.address-option{
+  display:block;
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:12px;
+  padding:10px;
+  margin-bottom:10px;
+  color:#F2F2F2;
+  cursor:pointer;
+}
+
+.address-option input{
+  margin-right:8px;
+  accent-color:#7B3FE4;
+}
+
+.payment-info form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.payment-option{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:#14141C;
+  border:1px solid #232330;
+  border-radius:12px;
+  padding:10px;
+  color:#F2F2F2;
+  cursor:pointer;
+}
+
+.payment-option img{
+  width:40px;
+  height:auto;
+}
+
+.payment-option input{
+  accent-color:#7B3FE4;
+}
