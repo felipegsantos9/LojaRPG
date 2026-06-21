@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest & Dados</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app-shell">
+
+        <header class="topbar">
+            <button class="icon-button" aria-label="Abrir menu">
+                <img src="Imagens/Barra.png" alt="">
+            </button>
+
+            <a class="brand" href="./index.html" aria-label="Quest & Dados">
+                <img src="Imagens/Logo.png" alt="">
+                <span>Quest & Dados</span>
+            </a>
+
+            <button class="icon-button cart-button" aria-label="Abrir carrinho">
+                <img src="Imagens/Carrinho.png" alt="">
+                <span class="cart-badge">0</span>
+            </button>
+        </header>
+
+        <section class="search-area" aria-label="Buscar produtos">
+            <img src="Imagens/Pesquisa.png" alt="">
+            <input id="searchInput" type="search" placeholder="Buscar dados, livros e acessórios">
+        </section>
+
+        <section class="hero" aria-labelledby="hero-title">
+            <img src="Imagens/divisoria.png" alt="Dados roxos sobre uma mesa de RPG">
+
+            <div class="hero-copy">
+                <h1 id="hero-title">Dados mágicos para sua próxima quest</h1>
+                <a href="#produtos">Explorar coleção</a>
+            </div>
+        </section>
+
+        <section class="quick-actions" aria-label="Categorias">
+            <a href="./dados.html">
+                <img src="Imagens/D20.png" alt="">
+                <span>Dados</span>
+            </a>
+
+            <a href="./livros.html">
+                <img src="Imagens/Livros].png" alt="">
+                <span>Livros</span>
+            </a>
+
+            <a href="./miniaturas.html">
+                <img src="Imagens/Miniaturas.png" alt="">
+                <span>Minis</span>
+            </a>
+
+            <a href="./acessorios.html">
+                <img src="Imagens/Acessorios.png" alt="">
+                <span>Acessórios</span>
+            </a>
+        </section>
+
+        <section class="benefits" aria-label="Vantagens da loja">
+            <article>
+                <img src="Imagens/Envio.png" alt="">
+                <span>Envio rápido</span>
+            </article>
+
+            <article>
+                <img src="Imagens/Seguranca.png" alt="">
+                <span>Compra segura</span>
+            </article>
+
+            <article>
+                <img src="Imagens/Qualidade.png" alt="">
+                <span>Alta qualidade</span>
+            </article>
+
+            <article>
+                <img src="Imagens/Atendimento.png" alt="">
+                <span>Atendimento</span>
+            </article>
+        </section>
+
+        <section class="section-heading">
+            <div>
+                <p>Favoritos dos aventureiros</p>
+                <h2 id="produtos">Mais vendidos</h2>
+            </div>
+
+            <a href="#">Ver tudo</a>
+        </section>
+
+        <section class="product-grid" aria-label="Lista de produtos">
+
+            <article class="product-card"
+                data-id="rainbow-dados"
+                data-name="Conjunto de dados RPG - Rainbow Dash"
+                data-price="49.90"
+                data-image="Imagens/RainbowDashDados.png">
+
+                <button class="favorite favorite-btn" aria-label="Favoritar Rainbow Dash Dados">
+                    <img src="Imagens/Favorito.png" alt="">
+                </button>
+
+                <img class="product-image" src="Imagens/RainbowDashDados.png" alt="Conjunto Rainbow Dash Dados">
+
+                <div class="rating" aria-label="4.5 de 5 estrelas">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Meia estrela.png" alt="">
+                </div>
+
+                <h3>Conjunto de dados RPG - Rainbow Dash</h3>
+                <p>R$ 49,90</p>
+            </article>
+
+            <article class="product-card"
+                data-id="crystal-saga"
+                data-name="Crystal Saga RPG - Livro de Regras"
+                data-price="59.90"
+                data-image="Imagens/Crystal.png">
+
+                <button class="favorite favorite-btn" aria-label="Favoritar Crystal">
+                    <img src="Imagens/Favorito.png" alt="">
+                </button>
+
+                <img class="product-image" src="Imagens/Crystal.png" alt="Conjunto Crystal">
+
+                <div class="rating" aria-label="5 de 5 estrelas">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                </div>
+
+                <h3>Crystal Saga RPG - Livro de Regras</h3>
+                <p>R$ 59,90</p>
+            </article>
+
+            <article class="product-card"
+                data-id="grana-azul"
+                data-name="Conjunto de dados RPG - Grana Azul"
+                data-price="52.90"
+                data-image="Imagens/GranaAzul.png">
+
+                <button class="favorite favorite-btn" aria-label="Favoritar Grana Azul">
+                    <img src="Imagens/Favorito.png" alt="">
+                </button>
+
+                <img class="product-image" src="Imagens/GranaAzul.png" alt="Conjunto Grana Azul">
+
+                <div class="rating" aria-label="4 de 5 estrelas">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrala Vazia.png" alt="">
+                </div>
+
+                <h3>Conjunto de dados RPG - Grana Azul</h3>
+                <p>R$ 52,90</p>
+            </article>
+
+            <article class="product-card"
+                data-id="marcelo-dados"
+                data-name="Conjunto de dados RPG - Marcelo Out Context"
+                data-price="64.90"
+                data-image="Imagens/CeloDados.png">
+
+                <button class="favorite favorite-btn" aria-label="Favoritar Celo Dados">
+                    <img src="Imagens/Favorito.png" alt="">
+                </button>
+
+                <img class="product-image" src="Imagens/CeloDados.png" alt="Conjunto Celo Dados">
+
+                <div class="rating" aria-label="5 de 5 estrelas">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                    <img src="Imagens/Estrela.png" alt="">
+                </div>
+
+                <h3>Conjunto de dados RPG - Marcelo Out Context</h3>
+                <p>R$ 64,90</p>
+            </article>
+
+        </section>
+
+        <section class="promo-card">
+            <img src="Imagens/Poster.png" alt="Produto Poster">
+
+            <div>
+                <p>Item especial</p>
+                <h2>Poster de campanha</h2>
+                <span>Complete a mesa com arte épica.</span>
+            </div>
+        </section>
+
+    </main>
+
+    <nav class="bottom-nav" aria-label="Navegação principal">
+        <a class="active" href="./index.html">
+            <img src="Imagens/Inicio.png" alt="">
+            <span>Início</span>
+        </a>
+
+        <a href="./categorias.html">
+            <img src="Imagens/Categorias.png" alt="">
+            <span>Categorias</span>
+        </a>
+
+        <a href="./pedidos.html">
+            <img src="Imagens/Pedidos.png" alt="">
+            <span>Pedidos</span>
+        </a>
+
+        <a href="./perfil.html">
+            <img src="Imagens/Usuario.png" alt="">
+            <span>Perfil</span>
+        </a>
+    </nav>
+
+</body>
+</html>
