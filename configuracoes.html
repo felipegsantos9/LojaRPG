@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quest & Dados - Configurações</title>
   <link rel="stylesheet" href="configuracoes.css">
 </head>
+
 <body>
   <section class="settings-page">
 
     <div class="page-header">
-      <a href="perfil.html" class="back-btn">←</a>
+      <a onclick="window.history.back()" class="back-btn">←</a>
       <h1>Configurações</h1>
     </div>
 
@@ -18,9 +20,21 @@
       <li>
         <span>Alterar idioma</span>
         <select>
+          <optgroup label="Idiomas">
           <option>Português (Brasil)</option>
           <option>English</option>
           <option>Español</option>
+          <option>Français</option>
+          <option>Deutsch</option>
+          <option>Italiano</option>
+          </optgroup>
+          <optgroup label="Outros idiomas">
+            <option>中文 (简体)</option>
+            <option>日本語</option>
+            <option>한국어</option>
+            <option>Русский</option>
+            <option>العربية</option>
+          </optgroup>
         </select>
       </li>
 
@@ -41,7 +55,7 @@
 
       <li>
         <span>Segurança</span>
-        <button>Alterar senha</button>
+        <a href="./senha.html"><button>Alterar senha</button></a>
       </li>
 
       <li>
@@ -56,13 +70,14 @@
 
       <li>
         <span>Sobre o aplicativo</span>
-        
+
         <a href="./versao.html">
-        <button>Versão</button>
+          <button>Versão</button>
         </a>
       </li>
     </ul>
 
   </section>
 </body>
+
 </html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest & Dados - Alterar Senha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="senha.css">
+</head>
+<body>
+    <section class="change-password-page">
+
+        <div class="page-header">
+            <a onclick="window.history.back()" class="back-btn">←</a>
+            <h1>Alterar Senha</h1>
+        </div>
+
+        <form class="change-password-form">
+            <label for="Email">Email</label>
+            <input type="email" id="Email" name="Email" required>
+
+            <label for="code">Código de Verificação</label>
+            <input type="text" id="code" name="code" required>
+
+            <label for="new-password">Nova Senha</label>
+            <input type="password" id="new-password" name="new-password" required>
+
+            <label for="confirm-password">Confirmar Nova Senha</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <a onclick="window.history.back()"><button type="submit">Alterar Senha</button></a>
+            
+        </form>
+
+    </section>
+
+
+</body>
+</html>

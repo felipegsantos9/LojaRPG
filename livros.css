@@ -1,11 +1,32 @@
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body{
-    background: #0A0A0F;
+:root {
+    --bg: #0a0a0f;
+    --surface: #14121d;
+    --surface-soft: #1f1a2c;
+    --stroke: #322845;
+    --text: #f8f4ff;
+    --muted: #b9adc9;
+    --accent: #9d5cff;
+    --accent-strong: #c59bff;
+    --gold: #f5c55c;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background:
+        radial-gradient(circle at top left, rgba(157, 92, 255, 0.2), transparent 34rem),
+        var(--bg);
+    color: var(--text);
+    font-family: "Inter", Arial, sans-serif;
 }
 
 .books-page{

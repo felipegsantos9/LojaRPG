@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest & Dados - Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    
+    <section class="register-page">
+
+        <div class="page-header">
+            <a href="login.html" class="back-btn">←</a>
+            <h1>Cadastro</h1>
+        </div>
+
+        <form class="register-form">
+            <label for="username">Nome de Usuario</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="code">Código de Verificação</label>
+            <input type="text" id="code" name="code" required>
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirmar Senha</label> 
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        
+            <button type="button" onclick="window.location.href='index.html'">Cadastrar</button>
+        </form>
+
+        <p>Já tem uma conta? <a href="login.html">Faça login aqui</a></p>
+
+    </section>
+
+</body>
+</html>
