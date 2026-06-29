@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset básico */
+body {
+  background: #0A0A0F;
+  font-family: 'Inter', sans-serif;
+  color: #F2F2F2;
+  margin: 0;
+  padding: 0;
+}
+
+.app-shell {
+  padding: 20px;
+}
+
+.scrolls-page{
+    min-height: 100vh;
+    background: #0A0A0F;
+    padding: 10px;
+}
+
+.page-header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.back-btn{
+  margin-left: 10px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #14141C;
+    border: 1px solid #232330;
+    border-radius: 12px;
+    color: #7B3FE4;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.page-header h1{
+    color: #F2F2F2;
+    font-size: 24px;
+}
+
+.search-bar{
+    margin-bottom: 25px;
+}
+
+.search-bar input{
+    width: 100%;
+    padding: 15px;
+    background: #14141C;
+    border: 1px solid #232330;
+    border-radius: 15px;
+    color: #F2F2F2;
+}
+
+.search-bar input::placeholder{
+    color: #B8B8C7;
+} 
+
+/* Topo */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #FFD700;
+  font-weight: 700;
+}
+
+/* Heading */
+.section-heading {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.section-heading h2 {
+  color: #FFD700;
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.section-heading p {
+  color: #B8B8C7;
+  font-size: 14px;
+}
+
+/* Grid de produtos */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+/* Card de produto */
+.product-card {
+  background: #14141C;
+  border: 1px solid #232330;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+}
+
+/* Imagem do produto */
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Nome do produto */
+.product-card h3 {
+  font-size: 15px;
+  color: #FFD700;
+  margin-bottom: 5px;
+}
+
+/* Preço */
+.product-card p {
+  font-size: 14px;
+  color: #B8B8C7;
+}
+
+.product-card span {
+  font-size: 16px;
+  color: #FFD700;
+  font-weight: bold;
+}
