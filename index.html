@@ -14,29 +14,39 @@
 <body>
     <main class="app-shell">
 
-        <header class="topbar">
-            <button class="icon-button" aria-label="Abrir menu">
-                <img src="Imagens/Barra.png" alt="">
-            </button>
+<div class="site-header">
 
-            <a class="brand" href="./index.html" aria-label="Quest & Dados">
-                <img src="Imagens/Logo.png" alt="">
-                <span>Quest & Dados</span>
-            </a>
+    <header class="topbar">
+        <button class="icon-button" aria-label="Abrir menu">
+            <img src="Imagens/Barra.png" alt="">
+        </button>
 
-            <a href="./carrinho.html">
+        <a class="brand" href="./index.html" aria-label="Quest & Dados">
+            <img src="Imagens/Logo.png" alt="">
+            <span>Quest & Dados</span>
+        </a>
+
+        <a class="cart-link" href="/pages/carrinho.html">
             <button class="icon-button cart-button" aria-label="Abrir carrinho">
                 <img src="Imagens/Carrinho.png" alt="">
                 <span class="cart-badge">4</span>
             </button>
-            </a>
-        </header>
+        </a>
+    </header>
 
-        <section class="search-area" aria-label="Buscar produtos">
-            <img src="Imagens/Pesquisa.png" alt="">
-            <input id="searchInput" type="search" placeholder="Buscar dados, livros e acessórios">
-        </section>
+    <nav class="web-nav" aria-label="Navegação principal">
+        <a class="active" href="./index.html">Início</a>
+        <a href="/pages/categorias.html">Categorias</a>
+        <a href="/pages/pedidos.html">Pedidos</a>
+        <a href="/pages/perfil.html">Perfil</a>
+    </nav>
 
+    <section class="search-area" aria-label="Buscar produtos">
+        <img src="Imagens/Pesquisa.png" alt="">
+        <input id="searchInput" type="search" placeholder="Buscar dados, livros e acessórios">
+    </section>
+
+</div>
         <section class="hero" aria-labelledby="hero-title">
             <img src="Imagens/divisoria.png" alt="Dados roxos sobre uma mesa de RPG">
 
@@ -47,22 +57,22 @@
         </section>
 
         <section class="quick-actions" aria-label="Categorias">
-            <a href="./dados.html">
+            <a href="/pages/dados.html">
                 <img src="Imagens/D20.png" alt="">
                 <span>Dados</span>
             </a>
 
-            <a href="./livros.html">
+            <a href="/pages/livros.html">
                 <img src="Imagens/Livros].png" alt="">
                 <span>Livros</span>
             </a>
 
-            <a href="./miniaturas.html">
+            <a href="/pages/miniaturas.html">
                 <img src="Imagens/Miniaturas.png" alt="">
                 <span>Minis</span>
             </a>
 
-            <a href="./acessorios.html">
+            <a href="/pages/acessorios.html">
                 <img src="Imagens/Acessorios.png" alt="">
                 <span>Acessórios</span>
             </a>
@@ -96,7 +106,7 @@
                 <h2 id="produtos">Mais vendidos</h2>
             </div>
 
-            <a href="./todos.html">Ver tudo</a>
+            <a href="/pages/todos.html">Ver tudo</a>
         </section>
 
         <section class="product-grid" aria-label="Lista de produtos">
