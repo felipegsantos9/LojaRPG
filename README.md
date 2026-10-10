@@ -32,7 +32,6 @@ O projeto foi desenvolvido com o objetivo de colocar em prática conhecimentos d
 * Estruturação de páginas utilizando HTML5
 * Criação de layouts com CSS3
 * Desenvolvimento de interfaces responsivas
-* Manipulação de elementos com JavaScript
 * Organização de componentes visuais
 * Experiência e navegação do usuário
 * Desenvolvimento de uma interface inspirada em e-commerce
@@ -53,12 +52,8 @@ LojaRPG/
 │   └── ...
 ├── css/
 │   └── ...
-├── js/
-│   └── ...
 ├── images/
 │   └── ...
-└── README.md
-```
 
 > A estrutura pode variar conforme a organização atual dos arquivos do projeto.
 
