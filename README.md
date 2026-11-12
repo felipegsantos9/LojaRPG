@@ -66,6 +66,3 @@ Projeto desenvolvido durante minha formação em **Técnico em Desenvolvimento d
 **Felipe Geraldo Candido dos Santos**
 
 Estudante de Técnico em Desenvolvimento de Sistemas.
-
-* GitHub: [Felipe Santos](https://github.com/felipegsantos9)
-* LinkedIn: [Felipe Santos](https://www.linkedin.com/)
